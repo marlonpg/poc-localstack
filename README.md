@@ -67,3 +67,13 @@ aws --endpoint-url=http://localhost:4566 secretsmanager list-secrets
 #}
 ```
 
+
+## OFF-topic
+### Issues to generate markdown file using Gemini
+``` 
+To get this exact result every time, the key is to ask me to present the file as a "literal raw text file" or a ".txt file". This tells me to wrap the entire content in a way that prevents the Canvas from rendering the markdown.
+Here are a few phrases that will work perfectly:
+"Please give me the file, but display it as a literal raw text file so I can see all the tags."
+"Can you show me the raw markdown source? Don't render it."
+"I need to copy the entire file, including the immersive tags. Please present it as a .txt file."
+```
